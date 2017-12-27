@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MTGoodsDetail"
   s.version      = "0.0.1"
-  s.summary      = "My MTGoodsDetail."
+  s.summary      = "My MTGoodsDetail"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mantou811/MTGoodsDetail.git", :tag => "s.version }
+  s.source       = { :git => "https://github.com/mantou811/MTGoodsDetail.git", :tag =>s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+    s.framework  = "UIKit"
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
@@ -134,5 +134,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+   s.dependency "MTProtocolManager"
+   s.dependency "MTGoodsDetailServiceProtocol"
+   s.dependency "MTConfirmOrderServiceProtocol"
 end
