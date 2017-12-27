@@ -14,6 +14,9 @@
 		8D32B3851FF37EB6009D97A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D32B3831FF37EB6009D97A8 /* LaunchScreen.storyboard */; };
 		8D32B3881FF37EB6009D97A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B3871FF37EB6009D97A8 /* main.m */; };
 		8D32B3921FF37EB6009D97A8 /* MTGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B3911FF37EB6009D97A8 /* MTGoodsDetailUITests.m */; };
+		8D32B39F1FF38267009D97A8 /* MTGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B39E1FF38267009D97A8 /* MTGoodsDetailViewController.m */; };
+		8D32B3A21FF38283009D97A8 /* MTGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B3A11FF38283009D97A8 /* MTGoodsDetailServiceProvide.m */; };
+		E4338C6C6F6866EE3718AD6F /* libPods-MTGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3E0FC0812586F4666ABB8 /* libPods-MTGoodsDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		488141F0F4984D3CC9230271 /* Pods-MTGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTGoodsDetail/Pods-MTGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		8D32B3751FF37EB6009D97A8 /* MTGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B3781FF37EB6009D97A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D32B3791FF37EB6009D97A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		8D32B38D1FF37EB6009D97A8 /* MTGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B3911FF37EB6009D97A8 /* MTGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGoodsDetailUITests.m; sourceTree = "<group>"; };
 		8D32B3931FF37EB6009D97A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D32B39D1FF38267009D97A8 /* MTGoodsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGoodsDetailViewController.h; sourceTree = "<group>"; };
+		8D32B39E1FF38267009D97A8 /* MTGoodsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGoodsDetailViewController.m; sourceTree = "<group>"; };
+		8D32B3A01FF38283009D97A8 /* MTGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		8D32B3A11FF38283009D97A8 /* MTGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		B2B3E0FC0812586F4666ABB8 /* libPods-MTGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF58200D635B4DAA9499F99 /* Pods-MTGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTGoodsDetail/Pods-MTGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4338C6C6F6866EE3718AD6F /* libPods-MTGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B4BB84412D419A43EACE0CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				488141F0F4984D3CC9230271 /* Pods-MTGoodsDetail.debug.xcconfig */,
+				DEF58200D635B4DAA9499F99 /* Pods-MTGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D32B36C1FF37EB6009D97A8 = {
 			isa = PBXGroup;
 			children = (
 				8D32B3771FF37EB6009D97A8 /* MTGoodsDetail */,
 				8D32B3901FF37EB6009D97A8 /* MTGoodsDetailUITests */,
 				8D32B3761FF37EB6009D97A8 /* Products */,
+				8B4BB84412D419A43EACE0CC /* Pods */,
+				CF48B26280F8722AA3E79018 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +103,7 @@
 		8D32B3771FF37EB6009D97A8 /* MTGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				8D32B39C1FF38240009D97A8 /* MTGoodsDetail */,
 				8D32B3781FF37EB6009D97A8 /* AppDelegate.h */,
 				8D32B3791FF37EB6009D97A8 /* AppDelegate.m */,
 				8D32B37B1FF37EB6009D97A8 /* ViewController.h */,
@@ -103,6 +126,25 @@
 			path = MTGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		8D32B39C1FF38240009D97A8 /* MTGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8D32B39D1FF38267009D97A8 /* MTGoodsDetailViewController.h */,
+				8D32B39E1FF38267009D97A8 /* MTGoodsDetailViewController.m */,
+				8D32B3A01FF38283009D97A8 /* MTGoodsDetailServiceProvide.h */,
+				8D32B3A11FF38283009D97A8 /* MTGoodsDetailServiceProvide.m */,
+			);
+			path = MTGoodsDetail;
+			sourceTree = "<group>";
+		};
+		CF48B26280F8722AA3E79018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3E0FC0812586F4666ABB8 /* libPods-MTGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D32B3961FF37EB6009D97A8 /* Build configuration list for PBXNativeTarget "MTGoodsDetail" */;
 			buildPhases = (
+				9A8388330D646CE1D60FD5AC /* [CP] Check Pods Manifest.lock */,
 				8D32B3711FF37EB6009D97A8 /* Sources */,
 				8D32B3721FF37EB6009D97A8 /* Frameworks */,
 				8D32B3731FF37EB6009D97A8 /* Resources */,
+				704684148AC6AF8D332ABF7B /* [CP] Embed Pods Frameworks */,
+				6D797D37140C3120675511F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +245,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D797D37140C3120675511F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTGoodsDetail/Pods-MTGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704684148AC6AF8D332ABF7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTGoodsDetail/Pods-MTGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8388330D646CE1D60FD5AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTGoodsDetail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D32B3711FF37EB6009D97A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +304,8 @@
 				8D32B37D1FF37EB6009D97A8 /* ViewController.m in Sources */,
 				8D32B3881FF37EB6009D97A8 /* main.m in Sources */,
 				8D32B37A1FF37EB6009D97A8 /* AppDelegate.m in Sources */,
+				8D32B39F1FF38267009D97A8 /* MTGoodsDetailViewController.m in Sources */,
+				8D32B3A21FF38283009D97A8 /* MTGoodsDetailServiceProvide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +453,13 @@
 		};
 		8D32B3971FF37EB6009D97A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488141F0F4984D3CC9230271 /* Pods-MTGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTGoodsDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTGoodsDetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,10 +469,13 @@
 		};
 		8D32B3981FF37EB6009D97A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF58200D635B4DAA9499F99 /* Pods-MTGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTGoodsDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTGoodsDetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
