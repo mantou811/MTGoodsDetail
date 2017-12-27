@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MTGoodsDetail"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "My MTGoodsDetail"
 
   # This description is used to generate tags and improve search results.
@@ -81,8 +81,6 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/mantou811/MTGoodsDetail.git", :tag => s.version }
-
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -130,11 +128,10 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-   s.dependency "MTProtocolManager"
-   s.dependency "MTGoodsDetailServiceProtocol"
-   s.dependency "MTConfirmOrderServiceProtocol"
+   s.dependency "MTProtocolManager", '~> 0.0.1'
+   s.dependency "MTGoodsDetailServiceProtocol", '~> 0.0.1'
+   s.dependency "MTConfirmOrderServiceProtocol", '~> 0.0.1'
 end

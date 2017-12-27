@@ -1,4 +1,4 @@
-platform :ios, '7.0'
+
 source 'https://github.com/mantou811/MTRepositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
